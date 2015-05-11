@@ -1,0 +1,60 @@
+login
+get your events of join,not_replied,may_be
+get your friends events,his may be's not replied and joined
+get your like pages suggested events
+
+
+storing data
+
+user
+****
+id
+age
+location
+likes
+gender
+profile pics
+friends[]
+events[not replied,going,may be]
+
+events
+*******
+id
+going(user ids)
+may be(user ids)
+rest of the event details.
+
+
+user.events.feed 
+
+yourevents,get friends,get friends.events,fill event feed table,read each event and update dates table.
+
+when displaying
+
+2 friends are going,400 are going,happening on this date
+display by popularity
+display by friends
+display by date
+
+potential dates
+
+get event feed table ,get users who are male/female display.
+if swipped,take the user out of 
+
+10151948721576114
+
+your age
+what you are looking for(men or women)
+filter it down
+
+login,go to profile if he is a first time user
+
+
+
+inside pre validate function fnWrapper() {
+    if (fnWrapper.hookCalled) return;
+    fnWrapper.hookCalled = true;
+    fn.apply(scope, arguments);
+  }
+
+inside pre validate { pass: 'woohoo', id: 'hi', _id: 54a302cae9268264235af0a9 }
